@@ -1,0 +1,25 @@
+{
+  "name": "exploding-proxy",
+  "version": "0.0.1",
+  "description": "MITM Proxy to get some Exploding Kittens avatars",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "exploding",
+    "kittens",
+    "avatars",
+    "mitm",
+    "proxy"
+  ],
+  "author": "Alejandro Camarillo <tribak.zero@gmail.com> (https://tribak.dev)",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "http-mitm-proxy": "^0.8.2"
+  }
+}
